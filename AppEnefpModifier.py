@@ -40,7 +40,7 @@ class AppEnefpModifier(Tk):
         self.geometry(f"{self.width}x{self.height}+{int(self.startx)}+{int(self.starty)}")
         self.minsize(self.width, self.height)
         ##self.iconbitmap('logo.ico')
-        ##self.config(bg='#336699')
+        self.config(bg='#336699')
 
         self.create_widgets()
         ##self.create_config() ## A virer pour fonctionnement normal
